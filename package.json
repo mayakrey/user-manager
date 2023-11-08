@@ -26,7 +26,12 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "camelcase": "warn",
+      "prefer-arrow-callback": "warn",
+      "prefer-const": "warn"
+    }
   },
   "browserslist": {
     "production": [
