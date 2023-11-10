@@ -1,8 +1,12 @@
-import React from 'react';
-import './app.css';
+import React from "react";
+import Sidebar from "./components/Sidebar";
 
-function App() {
-  return <div>hello</div>;
-}
+const App: React.FC = () => {
+  return (
+    <div>
+      <Sidebar />
+    </div>
+  );
+};
 
 export default App;
