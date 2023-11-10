@@ -12,7 +12,7 @@ const mockData: Array<{
     createdAt: "10.10.2010",
     deletedAt: "30.11.2013",
     status: "deactive",
-    groups: ["Italiy", "France"],
+    groups: ["Italy", "France"],
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const mockData: Array<{
     createdAt: "13.10.2010",
     deletedAt: "05.05.2012",
     status: "deactive",
-    groups: ["Mexico, USA, Guatemala"],
+    groups: ["Mexico", "USA", "Guatemala"],
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const mockData: Array<{
     createdAt: "10.10.2017",
     deletedAt: null,
     status: "active",
-    groups: ["Sweden, Norway"],
+    groups: ["Sweden", "Norway"],
   },
   {
     id: 5,
@@ -44,7 +44,7 @@ const mockData: Array<{
     createdAt: "02.09.2017",
     deletedAt: null,
     status: "active",
-    groups: ["Italiy"],
+    groups: ["Italy"],
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ const mockData: Array<{
     createdAt: "16.11.2019",
     deletedAt: null,
     status: "active",
-    groups: ["Italiy"],
+    groups: ["Italy"],
   },
   {
     id: 9,
@@ -92,7 +92,7 @@ const mockData: Array<{
     createdAt: "19.08.2020",
     deletedAt: null,
     status: "active",
-    groups: ["Italiy"],
+    groups: ["Italy"],
   },
   {
     id: 12,
