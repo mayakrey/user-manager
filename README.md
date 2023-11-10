@@ -8,6 +8,8 @@ NodeJS v18.17
 
 ## Getting Started
 
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.\
