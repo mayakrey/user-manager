@@ -1,5 +1,5 @@
 import React from "react";
-import { DataGrid } from "@mui/x-data-grid";
+import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import InfoIcon from "@mui/icons-material/Info";
 import EditIcon from "@mui/icons-material/Edit";
 import IconButton from "@mui/material/IconButton";
@@ -10,7 +10,7 @@ import mockData from "../mockData";
 import "../variables.css";
 
 const UserTable: React.FC = () => {
-  const columns = [
+  const columns: GridColDef[] = [
     { field: "id", headerName: "ID" },
     { field: "name", headerName: "Name", minWidth: 150 },
     { field: "createdAt", headerName: "Member Since", minWidth: 200 },

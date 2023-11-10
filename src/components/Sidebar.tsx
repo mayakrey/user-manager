@@ -27,7 +27,7 @@ const Sidebar: React.FC = () => {
     setMobileOpen(!mobileOpen);
   };
 
-  const links = [
+  const links: Array<{name: string, icon: any}> = [
     { name: 'Users', icon: <PersonIcon /> },
     { name: 'Groups', icon: <GroupIcon /> }
   ];
